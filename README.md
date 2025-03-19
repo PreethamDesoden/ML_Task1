@@ -4,7 +4,10 @@ This project implements a Decision Tree Classifier using Scikit-Learn to classif
 
 🔹 Features
 
-✅ Load and preprocess the Iris dataset✅ Train a Decision Tree Classifier✅ Visualize the tree structure✅ Evaluate model performance
+✅ Load and preprocess the Iris dataset
+✅ Train a Decision Tree Classifier
+✅ Visualize the tree structure
+✅ Evaluate model performance
 
 🛠 Requirements
 
