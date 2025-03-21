@@ -20,103 +20,103 @@ A Decision Tree is a supervised machine learning algorithm commonly used for cla
 
 The primary objectives of this task were:
 
-Implement a Decision Tree model using the Scikit-learn library.
+- Implement a Decision Tree model using the Scikit-learn library.
 
-Perform data preprocessing to clean and prepare the dataset.
+- Perform data preprocessing to clean and prepare the dataset.
 
-Train the model and analyze its performance.
+- Train the model and analyze its performance.
 
-Visualize the Decision Tree to understand how the model makes predictions.
+- Visualize the Decision Tree to understand how the model makes predictions.
 
-Evaluate the model using performance metrics such as accuracy, precision, recall, and confusion matrix.
+- Evaluate the model using performance metrics such as accuracy, precision, recall, and confusion matrix.
 
-Save the results in a Jupyter Notebook with detailed code, analysis, and visualization. 
+- Save the results in a Jupyter Notebook with detailed code, analysis, and visualization. 
 
 ## Dataset Used
 
 The dataset used for this task is 'iris' dataset. It contained multiple features and a target variable to be classified. The dataset was cleaned and processed to ensure accurate model predictions. Some key aspects of the dataset included:
 
-Feature Selection: Identifying relevant columns for training.
+1. Feature Selection: Identifying relevant columns for training.
 
-Handling Missing Values: Replacing or removing incomplete data.
+2. Handling Missing Values: Replacing or removing incomplete data.
 
-Encoding Categorical Variables: Converting text data into numerical format using techniques like one-hot encoding or label encoding.
+3. Encoding Categorical Variables: Converting text data into numerical format using techniques like one-hot encoding or label encoding.
 
-Data Splitting: Dividing the dataset into training and testing subsets.
+4. Data Splitting: Dividing the dataset into training and testing subsets.
 
 ## Implementation Steps
 
 ### 1. Data Preprocessing
 
-Before training the Decision Tree model, we performed the following preprocessing steps:
+- Before training the Decision Tree model, we performed the following preprocessing steps:
 
-Loaded the dataset into a Pandas DataFrame.
+- Loaded the dataset into a Pandas DataFrame.
 
-Explored the dataset to understand its structure and contents.
+- Explored the dataset to understand its structure and contents.
 
-Handled missing values by either imputing or removing incomplete rows.
+- Handled missing values by either imputing or removing incomplete rows.
 
-Converted categorical features into numerical format using encoding techniques.
+- Converted categorical features into numerical format using encoding techniques.
 
-Split the data into training (80%) and testing (20%) sets using train_test_split() from Scikit-learn.
+- Split the data into training (80%) and testing (20%) sets using train_test_split() from Scikit-learn.
 
 ### 2. Model Implementation
 
-Imported the necessary libraries such as DecisionTreeClassifier from sklearn.tree.
+- Imported the necessary libraries such as DecisionTreeClassifier from sklearn.tree.
 
-Initialized the Decision Tree Classifier and set hyperparameters such as criterion='gini' or criterion='entropy' to measure split quality.
+- Initialized the Decision Tree Classifier and set hyperparameters such as criterion='gini' or criterion='entropy' to measure split quality.
 
-Trained the model on the training dataset using .fit(X_train, y_train).
+- Trained the model on the training dataset using .fit(X_train, y_train).
 
-Made predictions on the test dataset using .predict(X_test).
+- Made predictions on the test dataset using .predict(X_test).
 
 ### 3. Model Visualization
 
-Used plot_tree() and export_text() from Scikit-learn to graphically represent the Decision Tree structure.
+- Used plot_tree() and export_text() from Scikit-learn to graphically represent the Decision Tree structure.
 
-Displayed decision rules to understand how features contributed to classification.
+- Displayed decision rules to understand how features contributed to classification.
 
 ### 4. Model Evaluation
 
-To assess the model’s performance, we used the following metrics:
+- To assess the model’s performance, we used the following metrics:
 
-Accuracy Score: Measured the percentage of correct predictions.
+- Accuracy Score: Measured the percentage of correct predictions.
 
-Confusion Matrix: Visualized the number of correct and incorrect classifications.
+- Confusion Matrix: Visualized the number of correct and incorrect classifications.
 
-Precision & Recall: Evaluated the model’s ability to classify positive and negative cases correctly.
+- Precision & Recall: Evaluated the model’s ability to classify positive and negative cases correctly.
 
-F1-score: Balanced measure of precision and recall.
+- F1-score: Balanced measure of precision and recall.
 
 ## Results and Analysis
 
-The Decision Tree model successfully classified/predicted outcomes with an acceptable accuracy.
+- The Decision Tree model successfully classified/predicted outcomes with an acceptable accuracy.
 
-The visualized tree structure provided insights into feature importance and decision-making.
+- The visualized tree structure provided insights into feature importance and decision-making.
 
-Performance metrics such as accuracy, precision, and recall confirmed the model’s reliability.
+- Performance metrics such as accuracy, precision, and recall confirmed the model’s reliability.
 
-The confusion matrix helped identify areas where the model performed well and areas needing improvement.
+- The confusion matrix helped identify areas where the model performed well and areas needing improvement.
 
-Hyperparameter tuning, such as adjusting max_depth, improved performance by preventing overfitting.
+- Hyperparameter tuning, such as adjusting max_depth, improved performance by preventing overfitting.
 
 ## Challenges and Learnings
 
 ### Challenges Faced:
 
-Handling imbalanced datasets, which sometimes led to biased predictions.
+- Handling imbalanced datasets, which sometimes led to biased predictions.
 
-Avoiding overfitting, especially when the tree depth was too large.
+- Avoiding overfitting, especially when the tree depth was too large.
 
-Selecting the best hyperparameters for improved performance.
+- Selecting the best hyperparameters for improved performance.
 
 ## Key Learnings:
 
-Feature selection is crucial for improving decision tree accuracy.
+- Feature selection is crucial for improving decision tree accuracy.
 
-Overfitting can be controlled using pruning techniques or limiting tree depth.
+- Overfitting can be controlled using pruning techniques or limiting tree depth.
 
-Decision Trees are interpretable, making them useful for understanding model decisions.
+- Decision Trees are interpretable, making them useful for understanding model decisions.
 
 ## Conclusion
 
@@ -126,14 +126,14 @@ In this task, we successfully implemented and visualized a Decision Tree model u
 
 ### A Jupyter Notebook containing:
 
-Data preprocessing steps
+- Data preprocessing steps
 
-Decision Tree implementation code
+- Decision Tree implementation code
 
-Model training and evaluation
+- Model training and evaluation
 
-Decision Tree visualization
+- Decision Tree visualization
 
-Performance analysis and conclusions
+- Performance analysis and conclusions
 
 
