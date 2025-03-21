@@ -34,7 +34,7 @@ Save the results in a Jupyter Notebook with detailed code, analysis, and visuali
 
 ## Dataset Used
 
-The dataset used for this task contained multiple features and a target variable to be classified. The dataset was cleaned and processed to ensure accurate model predictions. Some key aspects of the dataset included:
+The dataset used for this task is 'iris' dataset. It contained multiple features and a target variable to be classified. The dataset was cleaned and processed to ensure accurate model predictions. Some key aspects of the dataset included:
 
 Feature Selection: Identifying relevant columns for training.
 
@@ -124,7 +124,7 @@ In this task, we successfully implemented and visualized a Decision Tree model u
 
 ## Deliverable
 
-A Jupyter Notebook containing:
+### A Jupyter Notebook containing:
 
 Data preprocessing steps
 
