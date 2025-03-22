@@ -136,4 +136,14 @@ In this task, we successfully implemented and visualized a Decision Tree model u
 
 - Performance analysis and conclusions
 
+## Output
+
+![Image](https://github.com/user-attachments/assets/cfd46240-7411-466c-af1c-49efdb563d06)
+![Image](https://github.com/user-attachments/assets/04a436ef-5b9b-47c2-90c9-5cb74f994759)
+![Image](https://github.com/user-attachments/assets/8d06de03-4a4b-4401-9420-a68f511134aa)
+![Image](https://github.com/user-attachments/assets/4e324d06-5cf2-4d2b-82dd-590044c91e3c)
+![Image](https://github.com/user-attachments/assets/1385f8c6-60d6-4ab2-871a-c6fff44057b3)
+![Image](https://github.com/user-attachments/assets/d51fc921-bf57-45c4-aaec-89ce1a73df43)
+![Image](https://github.com/user-attachments/assets/8ea59b43-8b48-4e7e-9ad8-adf05061a01e)
+
 
